@@ -28,3 +28,7 @@
 .carousel-inner {
   height: 90vh;
 }
+
+.card {
+  margin: 50px;
+}

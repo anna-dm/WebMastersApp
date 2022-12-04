@@ -9,26 +9,54 @@
   width: 100px;
   outline: black;
   background-size: 100%, 100%;
-
   background-image: none;
 }
 
 .carousel-control-next-icon:after {
   content: '>';
   font-size: 55px;
-  color: #4c00ff;
+  color: #4C00FF;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: #4c00ff;
+  color: #4C00FF;
 }
 
 .carousel-inner {
   height: 90vh;
 }
 
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgb(76, 0, 255, 0.5);
+  bottom: initial;
+}
+
 .card {
   margin: 50px;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #4c00ff;
+  color: white;
+  padding: 3%;
+}
+
+.fab {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.fab:hover {
+  color: #d6cdcd;
+
 }
